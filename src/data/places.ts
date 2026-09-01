@@ -5,10 +5,7 @@ import naqshJahan2 from '../assets/images/places/naqsh-e-jahan-2.webp';
 import naqshJahan3 from '../assets/images/places/naqsh-e-jahan-3.webp';
 
 import sioSePol1 from '../assets/images/places/si-o-se-pol-1.webp';
-import sioSePol2 from '../assets/images/places/si-o-se-pol-2.webp';
-
 import khaju1 from '../assets/images/places/khaju-bridge-1.webp';
-import khaju2 from '../assets/images/places/khaju-bridge-2.webp';
 
 import sheikhLotfollah1 from '../assets/images/places/sheikh-lotfollah-1.webp';
 import sheikhLotfollah2 from '../assets/images/places/sheikh-lotfollah-2.webp';
@@ -20,9 +17,8 @@ import aliQapu1 from '../assets/images/places/ali-qapu-1.webp';
 import aliQapu2 from '../assets/images/places/ali-qapu-2.webp';
 
 import vank1 from '../assets/images/places/vank-cathedral-1.webp';
-import vank2 from '../assets/images/places/vank-cathedral-2.webp';
-
 import jolfa1 from '../assets/images/places/jolfa-quarter-1.webp';
+
 import chaharbagh1 from '../assets/images/places/chaharbagh-1.webp';
 import chaharbagh2 from '../assets/images/places/chaharbagh-2.webp';
 
@@ -73,7 +69,6 @@ export const PLACES: Place[] = [
     longitude: 51.6672,
     images: [
       sioSePol1,
-      sioSePol2,
     ],
     tags: ['زاینده‌رود', 'صفویه', 'پل تاریخی', 'شب‌نشینی'],
     featured: true,
@@ -97,7 +92,6 @@ export const PLACES: Place[] = [
     longitude: 51.6833,
     images: [
       khaju1,
-      khaju2,
     ],
     tags: ['عکاسی', 'آواز سنتی', 'زاینده‌رود', 'شاه‌نشین'],
     featured: true,
@@ -193,7 +187,6 @@ export const PLACES: Place[] = [
     longitude: 51.6562,
     images: [
       vank1,
-      vank2,
     ],
     tags: ['ارامنه جلفا', 'نقاشی رنسانس', 'موزه وانک', 'چاپخانه تاریخی'],
     featured: true,
@@ -217,7 +210,6 @@ export const PLACES: Place[] = [
     longitude: 51.6550,
     images: [
       jolfa1,
-      'https://upload.wikimedia.org/wikipedia/commons/6/68/Jolfa_quarter.jpg'
     ],
     tags: ['کافه‌گردی', 'سنگ‌فرش', 'جلفا', 'عکاسی شهری'],
     featured: true,
@@ -265,7 +257,6 @@ export const PLACES: Place[] = [
     longitude: 51.6792,
     images: [
       'https://upload.wikimedia.org/wikipedia/commons/5/5b/Chah_Haj_Mirza.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/a/a3/Haj_Mirza_Isfahan.jpg'
     ],
     tags: ['قهوه‌خانه صفوی', 'گوشفیل و دوغ', 'عتیقه', 'چای سنتی'],
     featured: true,
@@ -289,7 +280,6 @@ export const PLACES: Place[] = [
     longitude: 51.6631,
     images: [
       shahrzad1,
-      'https://upload.wikimedia.org/wikipedia/commons/7/72/Shahrzad_Isfahan.jpg'
     ],
     tags: ['بریانی', 'خورشت ماست', 'رستوران سنتی', 'نقاشی قاجار'],
     featured: true,
@@ -313,7 +303,6 @@ export const PLACES: Place[] = [
     longitude: 51.6521,
     images: [
       soffeh1,
-      'https://upload.wikimedia.org/wikipedia/commons/8/89/Soffeh_Isfahan.jpg'
     ],
     tags: ['بام اصفهان', 'تله‌کابین', 'کوهنوردی', 'چشم‌انداز شب'],
     featured: false,
@@ -361,7 +350,6 @@ export const PLACES: Place[] = [
     longitude: 51.6811,
     images: [
       'https://upload.wikimedia.org/wikipedia/commons/2/23/Ghasr_Monshi.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/6/6c/Ghasr_Monshi_Hotel.jpg'
     ],
     tags: ['خانه تاریخی', 'شربت‌خانه', 'قاجار', 'حوض فیروزه‌ای'],
     featured: false,

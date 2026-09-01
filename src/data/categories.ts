@@ -1,7 +1,6 @@
 import { Category } from '../types';
 
 import naqshJahan1 from '../assets/images/places/naqsh-e-jahan-1.webp';
-import hajMirza1 from '../assets/images/places/haj-mirza-1.webp';
 import shahrzad1 from '../assets/images/places/shahrzad-1.webp';
 import soffeh1 from '../assets/images/places/soffeh-1.webp';
 import vank1 from '../assets/images/places/vank-cathedral-1.webp';
@@ -23,7 +22,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Cafes & Tea Houses',
     iconName: 'Coffee',
     description: 'شربت‌خانه‌های سنتی و کافه‌های مدرن در دل کوچه‌های تاریخی',
-    image: hajMirza1,
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Chah_Haj_Mirza.jpg',
     color: 'from-teal-600/90 to-teal-950/90',
   },
   {
