@@ -1,6 +1,7 @@
 import React from 'react';
 import { SEO } from '../components/SEO';
 import { Info, ShieldCheck, Zap, Code, MapPin, UserCheck } from 'lucide-react';
+import khaju1 from '../assets/images/places/khaju-bridge-1.webp';
 
 export const About: React.FC = () => {
   return (
@@ -31,7 +32,7 @@ export const About: React.FC = () => {
         {/* Hero Visual */}
         <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-xl bg-zinc-900 border border-zinc-200">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG"
+            src={khaju1}
             alt="Isfahan Khaju Bridge at Night"
             className="w-full h-full object-cover"
           />
@@ -65,7 +66,7 @@ export const About: React.FC = () => {
               </div>
               <h3 className="font-bold text-zinc-900 text-base">سرعت بی‌نظیر</h3>
               <p className="text-xs text-zinc-500 leading-relaxed">
-                طراحی شده به صورت Static Single-Page App با لود سریع و روان.
+                طراحی شده به صورت Static Single-Page App با لود سریع و آستفاده از تصاویر داخلی WebP.
               </p>
             </div>
 

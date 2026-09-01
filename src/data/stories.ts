@@ -1,5 +1,9 @@
 import { EditorialStory } from '../types';
 
+import sheikhLotfollah1 from '../assets/images/places/sheikh-lotfollah-1.webp';
+import khaju1 from '../assets/images/places/khaju-bridge-1.webp';
+import chaharbagh1 from '../assets/images/places/chaharbagh-1.webp';
+
 export const STORIES: EditorialStory[] = [
   {
     id: 'safavid-tilework-architecture',
@@ -12,7 +16,7 @@ export const STORIES: EditorialStory[] = [
 در مسجد شیخ لطف‌الله، گنبد کرم‌رنگِ نادری دیده می‌شود که بر خلاف اکثر مساجد اسلامی که فیروزه‌ای هستند، در ساعات مختلف روز از کرم خاکی تا صورتی مایل به طلایی تغییر رنگ می‌دهد. شگفت‌انگیزتر آنکه در درون گنبد، نورِ ورودی از پنجره‌های مشبک بر اثر تلاقی با نقوش کاشی، تصویری همانند پرهای بازشده یک طاووس را بر فراز سقف پدید می‌آورد.`,
     author: 'تحریریه از اصفهان',
     readTime: '۵ دقیقه مطالعه',
-    coverImage: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Sheikh_Lotfollah_Mosque%2C_Isfahan.jpg',
+    coverImage: sheikhLotfollah1,
     tags: ['معماری صفوی', 'کاشی معرق', 'نقش جهان', 'هنر اسلامی']
   },
   {
@@ -26,7 +30,7 @@ export const STORIES: EditorialStory[] = [
 مردم اصفهان و استادان آواز محلی، شب‌ها زیر این تاق‌ها جمع می‌شوند و آوازهای بیات اصفهان و گوشه‌های ردیف موسیقی ایرانی را سر می‌دهند. این سنتی زنده است که نسل به نسل منتقل شده و شناسنامه صوتی این شهر تاریخی به شمار می‌آید.`,
     author: 'تحریریه از اصفهان',
     readTime: '۴ دقیقه مطالعه',
-    coverImage: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG',
+    coverImage: khaju1,
     tags: ['زاینده رود', 'پل خواجو', 'آواز اصیل', 'فرهنگ اصفهان']
   },
   {
@@ -40,7 +44,7 @@ export const STORIES: EditorialStory[] = [
 امروزه، تبدیل دوباره چهارباغ عباسی به پیاده‌راه، روح تازه و پرنشاطی به قلب تاریخی شهر بخشیده است. از کافه‌های فضای باز گرفته تا نمایشگاه‌های خیابانی و اجرای هنرمندان، چهارباغ زنده و پویا نبض حیات اجتماعی اصفهان را روشن نگاه می‌دارد.`,
     author: 'تحریریه از اصفهان',
     readTime: '۶ دقیقه مطالعه',
-    coverImage: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Chaharbagh_Abbasi_Isfahan.jpg',
+    coverImage: chaharbagh1,
     tags: ['چهارباغ', 'شهرسازی', 'پیاده‌راه', 'تاریخ اصفهان']
   }
 ];

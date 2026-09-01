@@ -9,6 +9,7 @@ import { SEO } from '../components/SEO';
 import { CATEGORIES } from '../data/categories';
 import { PLACES } from '../data/places';
 import { Compass, MapPin, Sparkles, ArrowLeft } from 'lucide-react';
+import heroBg from '../assets/images/places/naqsh-e-jahan-1.webp';
 
 export const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ export const Home: React.FC = () => {
         {/* Background Photography with Motion Zoom */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=2000&q=90"
+            src={heroBg}
             alt="Isfahan Naqsh-e Jahan"
             className="w-full h-full object-cover scale-105 animate-pulse-subtle opacity-45"
           />

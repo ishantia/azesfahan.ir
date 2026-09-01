@@ -1,5 +1,52 @@
 import { Place } from '../types';
 
+// Local imported optimized WebP assets
+import naqshJahan1 from '../assets/images/places/naqsh-e-jahan-1.webp';
+import naqshJahan2 from '../assets/images/places/naqsh-e-jahan-2.webp';
+import naqshJahan3 from '../assets/images/places/naqsh-e-jahan-3.webp';
+
+import sioSePol1 from '../assets/images/places/si-o-se-pol-1.webp';
+import sioSePol2 from '../assets/images/places/si-o-se-pol-2.webp';
+
+import khaju1 from '../assets/images/places/khaju-bridge-1.webp';
+import khaju2 from '../assets/images/places/khaju-bridge-2.webp';
+
+import sheikhLotfollah1 from '../assets/images/places/sheikh-lotfollah-1.webp';
+import sheikhLotfollah2 from '../assets/images/places/sheikh-lotfollah-2.webp';
+
+import chehelSotoun1 from '../assets/images/places/chehel-sotoun-1.webp';
+import chehelSotoun2 from '../assets/images/places/chehel-sotoun-2.webp';
+
+import aliQapu1 from '../assets/images/places/ali-qapu-1.webp';
+import aliQapu2 from '../assets/images/places/ali-qapu-2.webp';
+
+import vank1 from '../assets/images/places/vank-cathedral-1.webp';
+import vank2 from '../assets/images/places/vank-cathedral-2.webp';
+
+import jolfa1 from '../assets/images/places/jolfa-quarter-1.webp';
+import jolfa2 from '../assets/images/places/jolfa-quarter-2.webp';
+
+import chaharbagh1 from '../assets/images/places/chaharbagh-1.webp';
+import chaharbagh2 from '../assets/images/places/chaharbagh-2.webp';
+
+import hajMirza1 from '../assets/images/places/haj-mirza-1.webp';
+import hajMirza2 from '../assets/images/places/haj-mirza-2.webp';
+
+import shahrzad1 from '../assets/images/places/shahrzad-1.webp';
+import shahrzad2 from '../assets/images/places/shahrzad-2.webp';
+
+import soffeh1 from '../assets/images/places/soffeh-1.webp';
+import soffeh2 from '../assets/images/places/soffeh-2.webp';
+
+import monarJonban1 from '../assets/images/places/monar-jonban-1.webp';
+import monarJonban2 from '../assets/images/places/monar-jonban-2.webp';
+
+import ghasrMonshi1 from '../assets/images/places/ghasr-monshi-1.webp';
+import ghasrMonshi2 from '../assets/images/places/ghasr-monshi-2.webp';
+
+import birdsGarden1 from '../assets/images/places/isfahan-birds-1.webp';
+import birdsGarden2 from '../assets/images/places/isfahan-birds-2.webp';
+
 export const PLACES: Place[] = [
   {
     id: 'naqsh-e-jahan-square',
@@ -13,11 +60,7 @@ export const PLACES: Place[] = [
     longitude: 51.6775,
     address: 'اصفهان، مرکز شهر، خیابان سپه / استانداری',
     addressEn: 'Sepah St / Ostandari St, City Center, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/0/06/Naghsh-e_Jahan_Square.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/6/66/Naqshe_jahan_SQ.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/4/4e/Naqsh-e_Jahan_Square_at_Night.JPG'
-    ],
+    images: [naqshJahan1, naqshJahan2, naqshJahan3],
     tags: ['میراث یونسکو', 'صفویه', 'معماری', 'بازار', 'کالسکه‌سواری', 'عکاسی'],
     featured: true,
     openingHours: '۲۴ ساعته (بناهای داخلی: ۸:۰۰ الی ۱۹:۰۰)',
@@ -38,10 +81,7 @@ export const PLACES: Place[] = [
     longitude: 51.6675,
     address: 'اصفهان، میدان انقلاب، ابتدای خیابان چهارباغ بالا',
     addressEn: 'Enghelab Sq, Chahar Bagh Bala St, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/e/eb/Si-o-se-Pol.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/2/29/Si_o_se_pol.jpg'
-    ],
+    images: [sioSePol1, sioSePol2],
     tags: ['زاینده رود', 'پل تاریخی', 'پیاده‌روی شبانه', 'صفویه', 'نماد اصفهان'],
     featured: true,
     openingHours: '۲۴ ساعته',
@@ -62,10 +102,7 @@ export const PLACES: Place[] = [
     longitude: 51.6834,
     address: 'اصفهان، خیابان خواجو، تقاطع با زاینده‌رود',
     addressEn: 'Khaju St, Zayandeh Rud, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG',
-      'https://upload.wikimedia.org/wikipedia/commons/d/d4/Khaju_Bridge%2C_Isfahan.jpg'
-    ],
+    images: [khaju1, khaju2],
     tags: ['عکاسی شب', 'آوازخوانی', 'زاینده رود', 'کاشی‌کاری', 'صفویه'],
     featured: true,
     openingHours: '۲۴ ساعته',
@@ -86,10 +123,7 @@ export const PLACES: Place[] = [
     longitude: 51.6788,
     address: 'اصفهان، ضلع شرقی میدان نقش جهان',
     addressEn: 'East Side of Naqsh-e Jahan Sq, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/4/4a/Sheikh_Lotfollah_Mosque%2C_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/9/90/Sheikh_Lotfollah_Mosque_Dome.jpg'
-    ],
+    images: [sheikhLotfollah1, sheikhLotfollah2],
     tags: ['کاشی معرق', 'شاهکار معماری', 'گنبد طاووسی', 'صفویه', 'معماری اسلامی'],
     featured: true,
     openingHours: '۹:۰۰ الی ۱۲:۳۰ و ۱۴:۰۰ الی ۱۷:۰۰',
@@ -110,10 +144,7 @@ export const PLACES: Place[] = [
     longitude: 51.6719,
     address: 'اصفهان، خیابان استانداری، ضلع غربی میدان نقش جهان',
     addressEn: 'Ostandari St, West of Naqsh-e Jahan Sq, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/d/d7/Chehel_Sotoun_Palace%2C_Esfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/a/a2/Chehel_Sotoun%2C_Isfahan.jpg'
-    ],
+    images: [chehelSotoun1, chehelSotoun2],
     tags: ['باغ ایرانی', 'دیوارنگاره', 'تالار آینه', 'میراث یونسکو', 'صفویه'],
     featured: true,
     openingHours: '۹:۰۰ الی ۱۷:۳۰',
@@ -134,10 +165,7 @@ export const PLACES: Place[] = [
     longitude: 51.6765,
     address: 'اصفهان، ضلع غربی میدان نقش جهان',
     addressEn: 'West Side of Naqsh-e Jahan Sq, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a1/Ali_Qapu_Palace.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/4/45/Ali_Qapu_Music_Hall.jpg'
-    ],
+    images: [aliQapu1, aliQapu2],
     tags: ['عالی قاپو', 'تالار موسیقی', 'تنگ بری', 'چشم انداز پانوراما', 'صفویه'],
     featured: false,
     openingHours: '۹:۰۰ الی ۱۷:۰۰',
@@ -158,10 +186,7 @@ export const PLACES: Place[] = [
     longitude: 51.6560,
     address: 'اصفهان، محله جلفا، خیابان نظر شرقی، کوچه کلیسا',
     addressEn: 'Nazar Sharqi St, Jolfa Quarter, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/e/e0/Vank_Cathedral%2C_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/7/77/Vank_Cathedral_interior.jpg'
-    ],
+    images: [vank1, vank2],
     tags: ['ارامنه اصفهان', 'نقاشی دیواری', 'جلفا', 'موزه', 'تاریخ چاپ'],
     featured: true,
     openingHours: '۸:۳۰ الی ۱۸:۳۰',
@@ -182,10 +207,7 @@ export const PLACES: Place[] = [
     longitude: 51.6555,
     address: 'اصفهان، جنوب زاینده‌رود، خیابان حکیم نظامی، محله جلفا',
     addressEn: 'Hakim Nezami St, Jolfa Quarter, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/b/b5/Jolfa_Quarter_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/9/94/Jolfa_Isfahan_Alley.jpg'
-    ],
+    images: [jolfa1, jolfa2],
     tags: ['سنگ‌فرش', 'کافه گردی', 'پیاده‌روی', 'ارامنه', 'عکاسی شهری'],
     featured: true,
     openingHours: '۲۴ ساعته (کافه‌ها: ۱۰:۰۰ الی ۲۳:۳۰)',
@@ -206,10 +228,7 @@ export const PLACES: Place[] = [
     longitude: 51.6670,
     address: 'اصفهان، حدفاصل میدان امام حسین (دروازه دولت) تا میدان انقلاب',
     addressEn: 'From Imam Hossein Sq to Enghelab Sq, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/8/87/Chaharbagh_Abbasi_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/3/3f/Chaharbagh_St_Isfahan.jpg'
-    ],
+    images: [chaharbagh1, chaharbagh2],
     tags: ['پیاده‌راه', 'درختان چنار', 'زندگی شهری', 'کافه خیابانی', 'موسیقی خیابانی'],
     featured: false,
     openingHours: '۲۴ ساعته',
@@ -230,10 +249,7 @@ export const PLACES: Place[] = [
     longitude: 51.6795,
     address: 'اصفهان، بازار آهنگرها، کوچه چاه حاج میرزا (نزدیک میدان نقش جهان)',
     addressEn: 'Ahangarha Market, Haj Mirza Alley, Near Naqsh-e Jahan, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Haj_Mirza_Tea_House_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/1/13/Azadegan_Tea_House_Isfahan.jpg'
-    ],
+    images: [hajMirza1, hajMirza2],
     tags: ['عتیقه‌جات', 'دوغ و گوش‌فیل', 'چای‌خانه سنتی', 'موزه زنده', 'بازار اصفهان'],
     featured: true,
     openingHours: '۸:۰۰ الی ۲۱:۰۰',
@@ -254,10 +270,7 @@ export const PLACES: Place[] = [
     longitude: 51.6685,
     address: 'اصفهان، خیابان عباس‌آباد، ابتدای خیابان چهارباغ عباسی',
     addressEn: 'Abbas Abad St, Near Chahar Bagh Abbasi, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/5/5e/Shahrzad_Restaurant_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/a/a8/Shahrzad_Restaurant_Interior.jpg'
-    ],
+    images: [shahrzad1, shahrzad2],
     tags: ['خورشت ماست', 'غذای اصیل ایرانی', 'معماری قاجار', 'بریانی', 'موزه غذا'],
     featured: true,
     openingHours: '۱۱:۳۰ الی ۲۳:۰۰',
@@ -278,10 +291,7 @@ export const PLACES: Place[] = [
     longitude: 51.6480,
     address: 'اصفهان، بزرگراه شهید دستجردی، ورودی کوه صفه',
     addressEn: 'Dastjerdi Expressway, Soffeh Mountain Park, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/7/7a/Soffeh_Mountain_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/b/b3/Mount_Soffeh_View.jpg'
-    ],
+    images: [soffeh1, soffeh2],
     tags: ['کوهنوردی', 'بام اصفهان', 'تله کابین', 'عکاسی شب', 'طبیعت گردی'],
     featured: false,
     openingHours: '۲۴ ساعته (تله‌کابین: ۱۶:۰۰ الی ۲۲:۰۰)',
@@ -302,10 +312,7 @@ export const PLACES: Place[] = [
     longitude: 51.5901,
     address: 'اصفهان، خیابان آتشگاه، کیلومتر ۶ غرب اصفهان',
     addressEn: 'Atashgah St, Km 6 West, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/7/77/Monar_Jonban%2C_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/2/2f/Monar_Jonban_Front.jpg'
-    ],
+    images: [monarJonban1, monarJonban2],
     tags: ['معماری عجایب', 'ایلخانی', 'مناره نوسانی', 'فیزیک معماری'],
     featured: false,
     openingHours: '۹:۰۰ الی ۱۶:۳۰',
@@ -326,10 +333,7 @@ export const PLACES: Place[] = [
     longitude: 51.6842,
     address: 'اصفهان، خیابان نشاط، کوچه قصر منشی (کوچه ۲۱)',
     addressEn: 'Neshat St, Alley 21 (Ghasr Monshi Alley), Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/f/f3/Ghasr_Monshi_Hotel_Isfahan.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/d/d1/Ghasr_Monshi_Courtyard.jpg'
-    ],
+    images: [ghasrMonshi1, ghasrMonshi2],
     tags: ['هتل بوتیک', 'ارسی قاجار', 'شربت خانه', 'حیاط سنتی', 'کافه دنج'],
     featured: false,
     openingHours: '۸:۰۰ الی ۲۳:۰۰',
@@ -350,10 +354,7 @@ export const PLACES: Place[] = [
     longitude: 51.6160,
     address: 'اصفهان، پل کلهر، خیابان الفت، مجموعه گردشگری ناژوان',
     addressEn: 'Nazhvan Park, Olfat St, Isfahan',
-    images: [
-      'https://upload.wikimedia.org/wikipedia/commons/a/a3/Isfahan_Birds_Garden.jpg',
-      'https://upload.wikimedia.org/wikipedia/commons/5/52/Nazhvan_Park_Isfahan.jpg'
-    ],
+    images: [birdsGarden1, birdsGarden2],
     tags: ['ناژوان', 'پرندگان', 'طبیعت سرسبز', 'خانوادگی', 'عکاسی طبیعت'],
     featured: false,
     openingHours: '۸:۳۰ الی ۱۸:۰۰',
