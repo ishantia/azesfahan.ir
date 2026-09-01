@@ -7,7 +7,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Historical Sites',
     iconName: 'Landmark',
     description: 'شاهکارهای معماری صفوی، مساجد با عظمت و کاخ‌های تاریخی اصفهان',
-    image: 'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Naghsh-e_Jahan_Square.jpg',
     color: 'from-amber-600/90 to-amber-900/90',
   },
   {
@@ -16,7 +16,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Cafes & Tea Houses',
     iconName: 'Coffee',
     description: 'شربت‌خانه‌های سنتی و کافه‌های مدرن در دل کوچه‌های تاریخی',
-    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Haj_Mirza_Tea_House_Isfahan.jpg',
     color: 'from-teal-600/90 to-teal-950/90',
   },
   {
@@ -25,7 +25,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Restaurants',
     iconName: 'Utensils',
     description: 'تجربه طعم اصیل بریانی، خورشت ماست و غذای اصیل ایرانی',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Shahrzad_Restaurant_Isfahan.jpg',
     color: 'from-rose-700/90 to-amber-950/90',
   },
   {
@@ -34,7 +34,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Parks & Nature',
     iconName: 'Trees',
     description: 'حاشیه زاینده‌رود، پارک کوهستانی صفه و باغ‌های سرسبز اصفهان',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Soffeh_Mountain_Isfahan.jpg',
     color: 'from-emerald-700/90 to-emerald-950/90',
   },
   {
@@ -43,7 +43,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Culture & Arts',
     iconName: 'Palette',
     description: 'موزه‌ها، نگارخانه‌ها و کارگاه‌های صنایع دستی استادکاران',
-    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Vank_Cathedral%2C_Isfahan.jpg',
     color: 'from-violet-700/90 to-indigo-950/90',
   },
   {
@@ -52,7 +52,7 @@ export const CATEGORIES: Category[] = [
     nameEn: 'Photography Spots',
     iconName: 'Camera',
     description: 'بهترین زاویه‌ها برای عکاسی معماری، نوری و خیابانی در اصفهان',
-    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG',
     color: 'from-sky-700/90 to-slate-900/90',
   },
 ];

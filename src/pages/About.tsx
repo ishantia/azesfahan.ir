@@ -1,6 +1,6 @@
 import React from 'react';
 import { SEO } from '../components/SEO';
-import { Info, ShieldCheck, Zap, Code, MapPin } from 'lucide-react';
+import { Info, ShieldCheck, Zap, Code, MapPin, UserCheck } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
@@ -31,8 +31,8 @@ export const About: React.FC = () => {
         {/* Hero Visual */}
         <div className="relative aspect-[21/9] rounded-3xl overflow-hidden shadow-xl bg-zinc-900 border border-zinc-200">
           <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
-            alt="Isfahan Khaju Bridge"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG"
+            alt="Isfahan Khaju Bridge at Night"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
@@ -53,7 +53,7 @@ export const About: React.FC = () => {
               بسیاری از راهنماهای گردشگری، اصفهان را صرفاً در چند کارت‌پستال کلیشه‌ای خلاصه می‌کنند. اما اصفهان شهری لایه‌لایه است؛ از حس و حال چای نوشیدن در قهوه‌خانه ۳۰۰ ساله چاه حاج میرزا تا قدم زدن بر سنگ‌فرش‌های باران‌خورده محله جلفا و شنیدن صدای آواز زیر دهانه‌های پل خواجو.
             </p>
             <p className="text-sm sm:text-base leading-loose text-zinc-600">
-              هدف ما ایجاد یک راهنمای بصری، مینیمال و بسیار سریع بود که بدون نیاز به ثبت‌نام یا تبلیغات مزاحم، بهترین تجربه کشف شهر را در اختیار علاقه مندان قرار دهد.
+              هدف ما ایجاد یک راهنمای بصری، مینیمال و بسیار سریع بود که بدون نیاز به ثبت‌نام یا تبلیغات مزاحم، بهترین تجربه کشف شهر را در اختیار علاقه‌مندان قرار دهد.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export const About: React.FC = () => {
               </div>
               <h3 className="font-bold text-zinc-900 text-base">سرعت بی‌نظیر</h3>
               <p className="text-xs text-zinc-500 leading-relaxed">
-                طراحی شده به صورت Static Single-Page App با لود زیر ۱ ثانیه.
+                طراحی شده به صورت Static Single-Page App با لود سریع و روان.
               </p>
             </div>
 
@@ -73,9 +73,9 @@ export const About: React.FC = () => {
               <div className="w-10 h-10 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold">
                 <ShieldCheck className="w-5 h-5" />
               </div>
-              <h3 className="font-bold text-zinc-900 text-base">داده‌های معتبر</h3>
+              <h3 className="font-bold text-zinc-900 text-base">تصاویر و داده‌های واقعی</h3>
               <p className="text-xs text-zinc-500 leading-relaxed">
-                اطلاعات مکانی، تاریخچه و مختصات کاملاً بررسی شده و واقعی.
+                عکاسی‌ها و اطلاعات مکانی واقعی و تایید شده اصفهان.
               </p>
             </div>
 
@@ -90,7 +90,36 @@ export const About: React.FC = () => {
             </div>
           </div>
 
-          <div className="pt-6 border-t border-zinc-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+          {/* Developer Attribution Card */}
+          <div className="p-6 rounded-2xl bg-teal-50/60 border border-teal-200/80 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <div className="w-11 h-11 rounded-2xl bg-teal-700 text-white flex items-center justify-center font-bold shrink-0">
+                <UserCheck className="w-5 h-5" />
+              </div>
+              <div>
+                <span className="text-xs text-teal-900 font-semibold block">توسعه‌دهنده و نگه‌دارنده پروژه</span>
+                <a
+                  href="https://ishantia.ir"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-base font-black text-teal-950 hover:text-teal-700 underline underline-offset-4 transition-colors"
+                >
+                  شنتیا اسلامی (Shantia Eslami)
+                </a>
+              </div>
+            </div>
+
+            <a
+              href="https://ishantia.ir"
+              target="_blank"
+              rel="noreferrer"
+              className="px-5 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-semibold transition-colors shrink-0 shadow-xs"
+            >
+              مشاهده وب‌سایت شخصی (ishantia.ir)
+            </a>
+          </div>
+
+          <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-teal-700" />
               <span>ساخته شده با افتخار برای اصفهان و ایران</span>

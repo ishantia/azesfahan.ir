@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             
             <div className="pt-2 flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/ishantia/azesfahan.ir"
                 target="_blank"
                 rel="noreferrer"
                 className="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:text-white hover:border-zinc-700 transition-colors"
@@ -101,6 +101,20 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
           <p>© {new Date().getFullYear()} از اصفهان (AZ ESFAHAN). کلیه حقوق محفوظ است.</p>
+          
+          {/* Developer & Maintainer Credit */}
+          <p className="flex items-center gap-1.5 text-zinc-400">
+            <span>توسعه و نگهداری توسط</span>
+            <a
+              href="https://ishantia.ir"
+              target="_blank"
+              rel="noreferrer"
+              className="text-teal-400 hover:text-teal-300 font-semibold underline underline-offset-4 transition-colors"
+            >
+              شنتیا اسلامی (Shantia Eslami)
+            </a>
+          </p>
+
           <p className="flex items-center gap-1.5">
             ساخته شده با <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> و React برای نصف جهان
           </p>

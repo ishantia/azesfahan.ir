@@ -14,9 +14,9 @@ export const PLACES: Place[] = [
     address: 'اصفهان، مرکز شهر، خیابان سپه / استانداری',
     addressEn: 'Sepah St / Ostandari St, City Center, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1565552070098-0073a8805973?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/0/06/Naghsh-e_Jahan_Square.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/6/66/Naqshe_jahan_SQ.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/4/4e/Naqsh-e_Jahan_Square_at_Night.JPG'
     ],
     tags: ['میراث یونسکو', 'صفویه', 'معماری', 'بازار', 'کالسکه‌سواری', 'عکاسی'],
     featured: true,
@@ -39,8 +39,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، میدان انقلاب، ابتدای خیابان چهارباغ بالا',
     addressEn: 'Enghelab Sq, Chahar Bagh Bala St, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/e/eb/Si-o-se-Pol.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/2/29/Si_o_se_pol.jpg'
     ],
     tags: ['زاینده رود', 'پل تاریخی', 'پیاده‌روی شبانه', 'صفویه', 'نماد اصفهان'],
     featured: true,
@@ -63,8 +63,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، خیابان خواجو، تقاطع با زاینده‌رود',
     addressEn: 'Khaju St, Zayandeh Rud, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/3/30/Khaju_bridge_night.JPG',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d4/Khaju_Bridge%2C_Isfahan.jpg'
     ],
     tags: ['عکاسی شب', 'آوازخوانی', 'زاینده رود', 'کاشی‌کاری', 'صفویه'],
     featured: true,
@@ -87,8 +87,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، ضلع شرقی میدان نقش جهان',
     addressEn: 'East Side of Naqsh-e Jahan Sq, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1565552070098-0073a8805973?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/4/4a/Sheikh_Lotfollah_Mosque%2C_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/9/90/Sheikh_Lotfollah_Mosque_Dome.jpg'
     ],
     tags: ['کاشی معرق', 'شاهکار معماری', 'گنبد طاووسی', 'صفویه', 'معماری اسلامی'],
     featured: true,
@@ -111,8 +111,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، خیابان استانداری، ضلع غربی میدان نقش جهان',
     addressEn: 'Ostandari St, West of Naqsh-e Jahan Sq, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/d/d7/Chehel_Sotoun_Palace%2C_Esfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/a/a2/Chehel_Sotoun%2C_Isfahan.jpg'
     ],
     tags: ['باغ ایرانی', 'دیوارنگاره', 'تالار آینه', 'میراث یونسکو', 'صفویه'],
     featured: true,
@@ -135,8 +135,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، ضلع غربی میدان نقش جهان',
     addressEn: 'West Side of Naqsh-e Jahan Sq, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/a/a1/Ali_Qapu_Palace.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/4/45/Ali_Qapu_Music_Hall.jpg'
     ],
     tags: ['عالی قاپو', 'تالار موسیقی', 'تنگ بری', 'چشم انداز پانوراما', 'صفویه'],
     featured: false,
@@ -159,8 +159,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، محله جلفا، خیابان نظر شرقی، کوچه کلیسا',
     addressEn: 'Nazar Sharqi St, Jolfa Quarter, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/e/e0/Vank_Cathedral%2C_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/7/77/Vank_Cathedral_interior.jpg'
     ],
     tags: ['ارامنه اصفهان', 'نقاشی دیواری', 'جلفا', 'موزه', 'تاریخ چاپ'],
     featured: true,
@@ -183,8 +183,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، جنوب زاینده‌رود، خیابان حکیم نظامی، محله جلفا',
     addressEn: 'Hakim Nezami St, Jolfa Quarter, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/b/b5/Jolfa_Quarter_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/9/94/Jolfa_Isfahan_Alley.jpg'
     ],
     tags: ['سنگ‌فرش', 'کافه گردی', 'پیاده‌روی', 'ارامنه', 'عکاسی شهری'],
     featured: true,
@@ -207,8 +207,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، حدفاصل میدان امام حسین (دروازه دولت) تا میدان انقلاب',
     addressEn: 'From Imam Hossein Sq to Enghelab Sq, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/8/87/Chaharbagh_Abbasi_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/3/3f/Chaharbagh_St_Isfahan.jpg'
     ],
     tags: ['پیاده‌راه', 'درختان چنار', 'زندگی شهری', 'کافه خیابانی', 'موسیقی خیابانی'],
     featured: false,
@@ -231,8 +231,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، بازار آهنگرها، کوچه چاه حاج میرزا (نزدیک میدان نقش جهان)',
     addressEn: 'Ahangarha Market, Haj Mirza Alley, Near Naqsh-e Jahan, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/c/c8/Haj_Mirza_Tea_House_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/1/13/Azadegan_Tea_House_Isfahan.jpg'
     ],
     tags: ['عتیقه‌جات', 'دوغ و گوش‌فیل', 'چای‌خانه سنتی', 'موزه زنده', 'بازار اصفهان'],
     featured: true,
@@ -255,8 +255,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، خیابان عباس‌آباد، ابتدای خیابان چهارباغ عباسی',
     addressEn: 'Abbas Abad St, Near Chahar Bagh Abbasi, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/5/5e/Shahrzad_Restaurant_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/a/a8/Shahrzad_Restaurant_Interior.jpg'
     ],
     tags: ['خورشت ماست', 'غذای اصیل ایرانی', 'معماری قاجار', 'بریانی', 'موزه غذا'],
     featured: true,
@@ -279,8 +279,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، بزرگراه شهید دستجردی، ورودی کوه صفه',
     addressEn: 'Dastjerdi Expressway, Soffeh Mountain Park, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/7/7a/Soffeh_Mountain_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/b/b3/Mount_Soffeh_View.jpg'
     ],
     tags: ['کوهنوردی', 'بام اصفهان', 'تله کابین', 'عکاسی شب', 'طبیعت گردی'],
     featured: false,
@@ -303,8 +303,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، خیابان آتشگاه، کیلومتر ۶ غرب اصفهان',
     addressEn: 'Atashgah St, Km 6 West, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/7/77/Monar_Jonban%2C_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/2/2f/Monar_Jonban_Front.jpg'
     ],
     tags: ['معماری عجایب', 'ایلخانی', 'مناره نوسانی', 'فیزیک معماری'],
     featured: false,
@@ -327,8 +327,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، خیابان نشاط، کوچه قصر منشی (کوچه ۲۱)',
     addressEn: 'Neshat St, Alley 21 (Ghasr Monshi Alley), Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/f/f3/Ghasr_Monshi_Hotel_Isfahan.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/d/d1/Ghasr_Monshi_Courtyard.jpg'
     ],
     tags: ['هتل بوتیک', 'ارسی قاجار', 'شربت خانه', 'حیاط سنتی', 'کافه دنج'],
     featured: false,
@@ -351,8 +351,8 @@ export const PLACES: Place[] = [
     address: 'اصفهان، پل کلهر، خیابان الفت، مجموعه گردشگری ناژوان',
     addressEn: 'Nazhvan Park, Olfat St, Isfahan',
     images: [
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/a/a3/Isfahan_Birds_Garden.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/5/52/Nazhvan_Park_Isfahan.jpg'
     ],
     tags: ['ناژوان', 'پرندگان', 'طبیعت سرسبز', 'خانوادگی', 'عکاسی طبیعت'],
     featured: false,
