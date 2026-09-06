@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect width="100" height="100" rx="20" fill="#0f766e"/>
-  <path d="M50 18 C32 18 24 38 24 56 L76 56 C76 38 68 18 50 18 Z" fill="#ffffff" opacity="0.95"/>
-  <path d="M38 56 C38 46 43 40 50 40 C57 40 62 46 62 56 Z" fill="#0f766e"/>
-  <rect x="20" y="62" width="60" height="6" rx="3" fill="#d97706"/>
-  <circle cx="50" cy="76" r="4" fill="#ffffff"/>
+
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#0f766e"/>
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#2dd4bf" stroke-width="8" stroke-dasharray="16 12" opacity="0.6"/>
+  <circle cx="256" cy="256" r="175" fill="#115e59"/>
+  <!-- Decorative Persian Geometric Dome motif -->
+  <path d="M 256 95 C 290 150, 350 200, 350 260 C 350 320, 305 365, 256 365 C 207 365, 162 320, 162 260 C 162 200, 222 150, 256 95 Z" fill="#0f766e" stroke="#5eead4" stroke-width="6"/>
+  <circle cx="256" cy="256" r="45" fill="#fef3c7" />
+  <text x="256" y="435" text-anchor="middle" fill="#ffffff" font-family="Tahoma, Vazirmatn, sans-serif" font-weight="900" font-size="44" letter-spacing="-1">از اصفهان</text>
 </svg>
