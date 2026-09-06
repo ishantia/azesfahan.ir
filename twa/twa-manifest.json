@@ -1,0 +1,34 @@
+{
+  "packageId": "ir.azesfahan.app",
+  "name": "از اصفهان",
+  "shortName": "از اصفهان",
+  "description": "راهنمای اختصاصی کشف اصفهان | AZ ESFAHAN",
+  "host": "azesfahan.ir",
+  "startUrl": "/",
+  "themeColor": "#0f766e",
+  "navigationColor": "#0f766e",
+  "backgroundColor": "#faf9f5",
+  "enableNotifications": false,
+  "startUrlPath": "/",
+  "iconUrl": "https://azesfahan.ir/pwa-512x512.png",
+  "maskableIconUrl": "https://azesfahan.ir/maskable-icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android-keystore.jks",
+    "alias": "azesfahan-key"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://azesfahan.ir/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  }
+}
